@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Fontspring';
+  src: url('/fuentes/Fontspring-DEMO-caros-bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('/fuentes/Montserrat-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'MontserratMedium';
+  src: url('/fuentes/Montserrat-Medium.otf') format('otf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: url('/fuentes/Montserrat-SemiBold.otf') format('otf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "MrDafoe";
+  src: url('/fuentes/MrDafoe.ttf');
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,11 +46,5 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
 }
