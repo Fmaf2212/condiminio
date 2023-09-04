@@ -16,13 +16,13 @@
 
 @font-face {
   font-family: 'MontserratMedium';
-  src: url('/fuentes/Montserrat-Medium.otf') format('otf');
+  src: url('/fuentes/Montserrat-Medium.otf');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'MontserratSemiBold';
-  src: url('/fuentes/Montserrat-SemiBold.otf') format('otf');
+  src: url('/fuentes/Montserrat-SemiBold.otf');
   font-weight: 600;
 }
 

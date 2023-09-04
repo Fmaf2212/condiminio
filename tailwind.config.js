@@ -12,6 +12,12 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        primaryFontBold: ['MontserratBold', 'sans'],
+        primaryFontSemiBold: ['MontserratSemiBold', 'sans'],
+        primaryFontMedium: ['MontserratMedium', 'sans'],
+        secondaryFont: ['Fontspring', 'sans'],
+      },
       colors: {
         mediumPrimary: '#F4AF14',
         mediumText: '#4A4A49',

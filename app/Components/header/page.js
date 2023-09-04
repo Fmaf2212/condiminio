@@ -3,7 +3,7 @@ import React from 'react'
 import './header.css'
 import Image from 'next/image'
 
-import iconUser from '../../public/img/iconUser.png'
+import iconUser from '../../../public/img/iconUser.png'
 
 const Header = () => {
   return (
@@ -22,7 +22,7 @@ const Header = () => {
                 <li><a href="#" className='relative h-[60%] block font-[MontserratBold] leading-none text-base text-mediumText after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:z-[1]  after:bg-mediumPrimary after:scale-x-0 after:origin-left after:duration-500 after:ease-in-out hover:after:origin-left hover:after:scale-x-100 hover:after:ease-[0.2,1,0.82,0.94]'>Miembros</a></li>
             </ul>
             <button className='flex items-center gap-2 font-[MontserratBold] text-base text-mediumText bg-[rgba(182,154,157,.1)] rounded-lg py-1 pr-[108px] pl-[31px]'>
-                <Image src={iconUser} alt='iconUser' className='w-[31px]'></Image>
+                <Image src={iconUser} alt='iconUser' className='w-[31px]' />
                 Crear Perfil
             </button>
         </nav>

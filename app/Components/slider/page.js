@@ -3,8 +3,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./slider.css";
 
-import flechaDerecha from '../../public/img/slider/arrowRight.png'
-import flechaIzquierda from '../../public/img/slider/arrowLeft.png'
+import flechaDerecha from '../../../public/img/slider/arrowRight.png'
+import flechaIzquierda from '../../../public/img/slider/arrowLeft.png'
 import Image from "next/image";
 
 const Slider = ({ images }) => {
